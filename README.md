@@ -18,11 +18,11 @@
 ### Человек__стопы--ходят
 ### Человек__кости--ломаются
 
-header.header>img.logo+nav.nav>ul.nav__list>li.nav__item*4+p>a.nav__link 
+# Header -> header.header>img.logo+nav.nav>ul.nav__list>li.nav__item*4+p>a.nav__link 
 ![Image alt](header.png)
-# Форма ->  
+# Форма ->  form>input.form_name+input.form_email+input.form_phone>input.form_comments+img>button.form__button+p.form__text
 ![Image alt](form.png)
-# Карточка ->  .card>img.card__img+p.card__title+p.card__text
+# Карточка -> section.card>img.card__img+p.card__title+p.card__text
 ![Image alt](card.png)
-# Доп.блок -> 
+# Доп.блок -> section.footer>img.footer_logo+p.footer_text*3+p.footer_text*3+p.footer_text*3
 ![Image alt](footer.png)
