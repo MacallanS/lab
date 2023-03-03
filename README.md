@@ -18,7 +18,7 @@
 ### Человек__стопы--ходят
 ### Человек__кости--ломаются
 
-# Header -> header.header>img.logo+a.logo__link>nav.nav+ul.nav__list+li.nav__item+a.nav__link*4>p>a.nav__link 
+# Header -> header.header>img.logo+a.logo__link>nav.nav>ul.nav__list>(li.nav__item+a.nav__link)*4+p 
 ![Image alt](header.png)
 # Форма -> form>label>input.form__name+label>input.form__name+label>input.form__name>input.form_comments+img>button.form__button+p.form__text
 ![Image alt](form.png)
