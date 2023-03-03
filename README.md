@@ -24,5 +24,5 @@
 ![Image alt](form.png)
 # Карточка -> div.card>img.card__img+p.card__title+p.card__text
 ![Image alt](card.png)
-#``` Доп.блок -> section.footer>img.footer__logo+p.footer__text*3+p.footer_text*3+p.footer__text*3```
+#``` Доп.блок -> section.footer>img.footer__logo+(div>p.footer__text*3)```
 ![Image alt](footer.png)
