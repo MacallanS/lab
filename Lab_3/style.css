@@ -1,0 +1,62 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Bannertype_1;
+}
+  
+.wrapper {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: rgb(255, 231, 234);
+}
+
+.style__link {
+    border: 1px black;
+}
+
+.header__wrapper {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header__logo {
+    height: 70px;
+}
+
+.header__heading {
+    margin-left: 230px;
+}
+
+.header__text {
+    margin-left: 230px;
+}
+
+
+.krest:hover {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: rgb(255, 231, 234);
+    height: 208px;
+}
+
+
