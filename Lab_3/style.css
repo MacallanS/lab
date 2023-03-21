@@ -246,47 +246,33 @@
 .roma-2-text,
 .my__home-text {
     opacity: 0;
+    fill:rgb(226, 24, 47)
 }
 
-.long__home:hover > .long__home-text {
+.long__home:hover ~ .long__home-text {
     opacity: 1;
 }
 
-.hospital:hover > .hospital-text {
-    animation: opacity;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
+.hospital:hover ~ .hospital-text {
+    opacity: 1;
 }
 
-.shope:hover > .shope-text {
-    animation: opacity;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
+.shope:hover ~ .shope-text {
+    opacity: 1;
 }
 
-.roma-1:hover > .roma-1-text {
-    animation: opacity;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
+.roma-1:hover ~ .roma-1-text {
+    opacity: 1;
 }
 
-.roma-2:hover > .roma-2-text {
-    animation: opacity;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
+.roma-2:hover ~ .roma-2-text {
+    opacity: 1;
 }
 
-.my__home:hover > .my__home-text {
-    animation-name: opacity;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
+.my__home:hover ~ .my__home-text {
+    opacity: 1;
 }
 
-@keyframes opacity {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+text {
+    font-size: 20px;
 }
