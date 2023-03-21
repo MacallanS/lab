@@ -9,22 +9,42 @@
     <link rel="stylesheet" href='./style.css'>
   </head>
   <body>
-    <svg>
+    <svg style="display: none;">
         <symbol
-
+            id="home"
+            width="100" height="90" viewBox="0 0 100 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M26 44V86H41V63H57V86H71V44H85L47 8L13 44H30Z" stroke="currentColor" stroke-width="10"/>
+        </symbol>   
+        <symbol
+            id="lupa"
+            width="105" height="103" viewBox="0 0 105 103" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="31" cy="31" r="26" stroke="currentColor" stroke-width="10"/>
+            <path d="M54 52L90 90" stroke="currentColor" stroke-width="9"/>
+        </symbol>   
+        <symbol
+            id="city_3"
+            width="300" height="164" viewBox="0 0 589 164" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 163V108.924H46.6115V155.957H99.4944V163H135.631V57.1206H171.107V121.648H225.091V163H290.093V142.097H336.145V94.3829H375.587V163H458.657V1H537.321V121.648H588V163H458.657H375.587H290.093H225.091H135.631H99.4944H1Z" fill="#8A88FF"/>
+            <path d="M1 163V108.924H46.6115V155.957H99.4944V163H135.631V57.1206H171.107V121.648H225.091V163H290.093V142.097H336.145V94.3829H375.587V163H458.657V1H537.321V121.648H588V163H1Z" stroke="black"/>
         </symbol>
         <symbol
-
+            id="city_2"
+            width="300" height="164" viewBox="0 0 589 164" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 163V108.924H46.6115V155.957H99.4944V163H135.631V57.1206H171.107V121.648H225.091V163H290.093V142.097H336.145V94.3829H375.587V163H458.657V1H537.321V121.648H588V163H458.657H375.587H290.093H225.091H135.631H99.4944H1Z" fill="#605CFF"/>
+            <path d="M1 163V108.924H46.6115V155.957H99.4944V163H135.631V57.1206H171.107V121.648H225.091V163H290.093V142.097H336.145V94.3829H375.587V163H458.657V1H537.321V121.648H588V163H1Z" stroke="black"/>
         </symbol>
         <symbol
+            id="city_1"
+            width="300" height="164" viewBox="0 0 589 164" fill="none" xmlns="http://www.w3.org/2000/svg">
 
+            <path d="M1 163V108.924H46.6115V155.957H99.4944V163H135.631V57.1206H171.107V121.648H225.091V163H290.093V142.097H336.145V94.3829H375.587V163H458.657V1H537.321V121.648H588V163H1Z" stroke="black"/>
+            <path d="M1 163V108.924H46.6115V155.957H99.4944V163H135.631V57.1206H171.107V121.648H225.091V163H290.093V142.097H336.145V94.3829H375.587V163H458.657V1H537.321V121.648H588V163H458.657H375.587H290.093H225.091H135.631H99.4944H1Z" fill="#0500FF"/>
         </symbol>
         <symbol
             id="krest"
             width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M4 4L90 90" stroke="currentColor" stroke-width="10"/>
-            <path d="M90 5L4 90" stroke="currentColor" stroke-width="10"/>
-            
+            <path class="krest_1" d="M4 4L90 90" stroke="currentColor" stroke-width="10"/>
+            <path class="krest_2" d="M90 5L4 90" stroke="currentColor" stroke-width="10"/>
         </symbol>
         
     </svg>
@@ -36,20 +56,121 @@
                     Лабораторная работа 3
                 </h1>
                 <p class="header__text">
-                   
+                    
                 </p>
             </div>
         </div>
     </header>
     <main>
         <section>
-            <button  class="krest">
-                <svg>
-                    <use href="#krest">
+            <div class="header__wrapper-1">
+                <button class="krest">
+                    <svg class="size">
+                        <use href="#home" class="">
 
-                    </use>
+                        </use>
+                    </svg>
+                </button>
+                <button class="krest">
+                    <svg class="size">
+                        <use href="#krest" class="">
+
+                        </use>
+                    </svg>
+                </button>
+                <button class="krest">
+                    <svg class="size">
+                        <use href="#lupa" class="">
+
+                        </use>
+                    </svg>
+                </button>
+                <button class="menu">
+                    <svg class="size menu"
+                        width="100" height="100" viewBox="0 0 67 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="path3" d="M7 52H60" stroke="black" stroke-width="6"/>
+                        <path class="path2" d="M6 34H60" stroke="black" stroke-width="6"/>
+                        <path class="path1" d="M6 17H60" stroke="black" stroke-width="6"/>
+                    </svg>
+                </button>
+            </div>
+            
+        </section>
+        <section>
+            <div class="header__wrapper-2">
+                <ul class="city">
+                    <li>
+                        <svg class="city_3">
+                            <use href="#city_3">
+                            </use>
+                        </svg>
+                        <svg class="city_3-2">
+                            <use href="#city_3">
+                            </use>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg class="city_2">
+                            <use href="#city_2">
+                            </use>
+                        </svg>
+                        <svg class="city_2-1">
+                            <use href="#city_2">
+                            </use>
+                        </svg>
+                    </li>
+                    <li> 
+                        <svg class="city_1">
+                            <use href="#city_1">
+                            </use>
+                        </svg>
+                        <svg class="city_1-2">
+                            <use href="#city_1">
+                            </use>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+            
+        </section>
+        <section>
+            <div class="wrapper">
+                <svg class="road" width="1011" height="806" viewBox="0 0 1011 806" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M860.047 304.244L840.817 405.497L952.808 426.801" stroke="black" stroke-width="15"/>
+                    <path d="M383.803 60.3836C402.121 49.3698 429.772 35.2759 459.595 24.4302M459.595 24.4302C504.423 8.12769 554.158 -0.836083 584.482 19.0301C634.98 52.1129 645.945 111.679 645.115 137.326L536.971 124.544L459.595 24.4302Z" stroke="black" stroke-width="15"/>
+                    <path class="grass" d="M1003 674.17C1003 743.576 952.374 798.5 891.495 798.5C830.617 798.5 779.991 743.576 779.991 674.17C779.991 604.764 830.617 549.84 891.495 549.84C952.374 549.84 1003 604.764 1003 674.17Z" fill="#3f9b0b" stroke="black" stroke-width="15"/>
+                    <path d="M834.256 563.643L331.767 7" stroke="black" stroke-width="15"/>
+                    <path d="M800.771 597.729L298.283 41.0853" stroke="black" stroke-width="15"/>
+                    <path d="M645.115 140.334H952.808" stroke="black" stroke-width="15"/>
+                    <path d="M641.269 344.094L684.934 279.933L951.45 312.765" stroke="black" stroke-width="15"/>
+                    <path d="M428.826 185.948L367.061 232.815M367.061 232.815H240.817V304.244H301.45V366.901H367.061V232.815Z" stroke="black" stroke-width="15"/>
+                    <path d="M369.55 362.64L479.052 468.154L647.604 428.305" stroke="black" stroke-width="15"/>
+                    <path d="M479.052 468.154L221.586 516.776" stroke="black" stroke-width="15"/>
+                    <path d="M775.885 291.963L785.839 392.465L729.504 446.099" stroke="black" stroke-width="15"/>
+                    <path d="M300.545 367.653V443.092H150.771L10.5 287.703L60.9525 231.813H257.559" stroke="black" stroke-width="15"/>
+                    <path d="M239.007 305.998H167.287V402.991H119.55" stroke="black" stroke-width="15"/>
                 </svg>
-            </button>
+                <svg class="house" width="937" height="576" viewBox="0 0 937 576" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="long__home" d="M201 513L615 426L659.5 481.5L242 570L201 513Z" fill="#FFB6B6" stroke="currentColor" stroke-width="10"/>
+                    <path class="hospital" d="M698 396.5L636.5 324L666 280.5L728 289L736 359.5L698 396.5Z" fill="#B8FFFF" stroke="currentColor" stroke-width="10"/>
+                    <path class="shope" d="M168.5 402.5V338.5H227.5V402.5H168.5Z" fill="#B8FFFF" stroke="currentColor" stroke-width="10"/>
+                    <path class="roma-1" d="M188 263V226H44L7 263L93.5 362H117V263H188Z" fill="#FFB6B6" stroke="currentColor" stroke-width="10"/>
+                    <path class="roma-2" d="M321 225H230.5V262.5H292.5V325.5H321V225Z" fill="#FFB6B6" stroke="currentColor" stroke-width="10"/>
+                    <path class="my__home" d="M544 6L466.5 11L487.5 44H522L544 84H589.5L544 6Z" fill="#FFB6B6" stroke="currentColor" stroke-width="10"/>
+                    <span class="long__home-text">Тут проживает мой одноклассник</span>
+                    <span class="hospital-text">Тут находится плтаная полеклиника</span>
+                    <span class="shope-text">Тут находится Пятёрочка</span>
+                    <span class="roma-1-text">Тут проживает мой физрук</span>
+                    <span class="roma-2-text">Тут проживает мой друг Рома</span>
+                    <span class="my__home-text">Это мой родной дом</span>
+                </svg>
+                <span class="long__home-text">Тут проживает мой одноклассник</span>
+                <span class="hospital-text">Тут находится плтаная полеклиника</span>
+                <span class="shope-text">Тут находится Пятёрочка</span>
+                <span class="roma-1-text">Тут проживает мой физрук</span>
+                <span class="roma-2-text">Тут проживает мой друг Рома</span>
+                <span class="my__home-text">Это мой родной дом</span>
+            </div>
         </section>
       <footer class="footer">
       </footer>
