@@ -1,8 +1,8 @@
 
 //Задание 1
 
-let bread = prompt('Введите число для таблицы умножения')
-let cheese = prompt('Введите число для таблицы умножения')
+let bread = prompt('Введите количесвтво хлеба')
+let cheese = prompt('Введите количесвтво сыра')
 
 
 const product={
@@ -75,7 +75,7 @@ function distribution (message){
     console.log(zwe.repeat(max+4))
     for (let elementArray=0;  elementArray < message.length; elementArray++){
         let lenWhiteSpace = max-message[elementArray].length
-        console.log(`* {message[elementArray]}{space.repeat(lenWhiteSpace)} *`)
+        console.log(`* ${message[elementArray]}${space.repeat(lenWhiteSpace)} *`)
     }
 
     console.log(zwe.repeat(max+4))
